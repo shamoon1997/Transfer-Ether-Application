@@ -1,0 +1,180 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    padding: 1%;
+    width: 100%;
+}
+.container{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.navBar>div{
+    width: 50%;
+}
+.navBar:hover{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+.navBarList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+img{
+    height: 70%;
+}
+.welcome-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+}
+h1{
+    color: white;
+    margin-bottom: 0;
+}
+p{
+    color: white;
+    display: inline;
+}
+.btn-connect-wallet{
+    background-color: blue;
+    width: 20%;
+    height: 5vh;
+    border-style: none;
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+}
+.btn-connect-wallet:hover{
+    color: lightblue;
+}
+.features{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width:35%;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.features-1{
+    text-align: center;
+    padding: 10%;
+    border-right: 1px solid white;
+}
+
+.features-2{
+    text-align: center;
+    padding: 10%;
+    border-right: 1px solid white;
+}
+.features-3{
+    text-align: center;
+    padding: 10%;
+}
+.features-below-1{
+    text-align: center;
+    padding: 11%;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.features-below-2{
+    text-align: center;
+    padding: 9.5%;
+    border-top: 1px solid white;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.features-below-3{
+    text-align: center;
+    padding: 9.2%;
+    border-top: 1px solid white;
+}
+.welcome-wrapper-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.ethereum-container{
+    position: relative;
+    margin-top: 2%;
+    width: 30%;
+    height: 15vh;
+    border-radius: 10px;
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.ethereum-logo{
+    position: relative;
+    left: 2%;
+    top: 5%;
+}
+.info-logo{
+    position: relative;
+    left: 90%;
+    bottom: 10%;
+}
+.lower-address{
+    margin-left: 4%;
+}
+h2{
+    margin-top: 0%;
+    color: white;
+}
+.form-input{
+    text-align: center;
+    margin-top: 2%;
+    width: 30%;
+    border-radius: 10px;
+    height: 30vh;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.input-container{
+    text-align: center;
+    padding: 2%;
+}
+input{
+    border-style: none;
+    padding: 2%;
+    color: white;
+    border-radius: 10px;
+    background-color: lightskyblue;
+}
+.btn-send{
+}
+h3{
+    color: white;
+}
+.div-transactionHeading{
+    text-align: center;
+}
+.div-listTransactions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.transactionListContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 2%;
+}
